@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {//DECLARING VARIABLES  
             string firstNAME;
-            string middleInitial;
+            string middleInitial; 
             string lastName;
             string fullName;
             int age;
