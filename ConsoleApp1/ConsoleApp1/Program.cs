@@ -21,6 +21,16 @@ namespace ConsoleApp1
             double heightinches;
             double totalHeightCM;
 
+            System.Console.WriteLine("What is your first name?");
+            firstNAME = System.console.readline();
+            System.Console.WriteLine("what is your middle initial?");
+            middleInitial=System.Console.ReadLine();
+            System.Console.WriteLine("Whatis your last name");
+            lastName=System.Console.ReadLine();
+            
+
+
+
 
         }
     }
