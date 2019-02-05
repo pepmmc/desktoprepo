@@ -25,29 +25,29 @@ namespace ConsoleApp2
 
             System.Console.Write("What is your first name?");
             firstName = System.Console.ReadLine();
-            System.Console.Write("what is your middle initial?");
+            System.Console.Write("What is your middle initial?");
             middleInitial = System.Console.ReadLine();
-            System.Console.Write("What is your last name");
+            System.Console.Write("What is your last name?");
             lastName = System.Console.ReadLine();
-            fullName = irstName+" "+middleInitial +". "+ lastName;
+            fullName = firstName + " " + middleInitial + ". " + lastName;
 
             //part two
 
-            System.Console.Write("How many feet tall are you, rounding off the inches");
+            System.Console.Write("How many feet tall are you, rounding off the inches?");
             heightFeet=System.Console.ReadLine();
-            System.Console.Write("How many inches beyond that base height");
-            heightinches=System.Console.ReadLine();
+            System.Console.Write("How many inches do you extend beyond that base height?");
+            heightinches = System.Console.ReadLine();
             totalHeightCM=((heightFeet*12)+(heightinches))*2.54;
             //part three
-            System.Console.Write("what is your age friend");
+            System.Console.Write("Nice to meet you " + fullName + "; what is your age, friend?");
             age=int.Parse.System.Console.ReadLine();
-            System.Console.Write("Are you a citizen?");
+            System.Console.Write("Are you a US citizen?");
             isCitizen=bool.Parse.readline();
-            canVote==isCitizen&&age>=18;
+            canVote = isCitizen && age >= 18;
 
-            writeline(fullName);
-            writeline(totalHeightCM);
-            writeline(canVote);
+            system.console.writeline(fullName);
+            system.Console.writeline(totalHeightCM);
+           System.Console.writeline(canVote);
 
 
 
